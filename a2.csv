@@ -1,0 +1,6 @@
+yearOfJoining,collID,GradType,firstName,lastName,GuardianName,dob,branch1,branch2,contactNo,parentContactNo,mailIDOfficial,mailIDPersonal,hostelRoom,permanentAddress,cgpa,courses
+2011,2011A7PS086H,UG,Santhosh,Alladi,Venkateshwarlu,9/10/92,ComputerScience,,9666828472,9949968538,f2011086@hyderabad.bits-pilani.ac.in,santhosh.alladi92@gmail.com,G318,"2-1-69/5,Ragahavendra Colony,Uppal,Hyderabad-039,Telangana",8.07,DS
+2013,2013H1TS001H,PG,Bharath,K,Bhaskar,11/12/90,Information Security,,9666123532,8897236363,h2013001@hyderabad.bits-pilani.ac.in,barath@gmail.com,S120,"101,Dwaraka Apartments,S R Nagar, Hyderabad-030,Telangana",9.53,"PC,ML"
+2014,2014AA014H,UG,Akshith,Anand,Akhilesh,05/01/95,ECE,,7995516789,8889354789,f2014014@hyderabad.bits-pilani.ac.in,anandh@gmail.com,K154,"1D,Blue Square,Bhandra, Mumbai-087,Maharastra",7.36,DM
+2011,2011A4A7055H,Dual_UG,Aakash,Raj,Nagesh,16/5/93,Mechanical,Computer Science,7885546825,9848526398,f2011055@hyderabad.bits-pilani.ac.in,raj@gmail.com,G166,"12H/A,Hill Apartments,Basheerbagh, Hyderabad-021,Telangana",8.8,"DSP,DIP,ML"
+2010,2010B5A7654H,Dual,sai,kpn,Venkat,15/9/92,Physics,Computer Science,9949785695,9888128769,f2010654@hyderabad.bits-pilani.ac.in,sai@gmail.com,V198,"1-45/A,Lahari Colony,Kotagudem, Ananthapur-123,Andhra Pradesh",7.9,"ML,CA"

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="students">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="student"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="student">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="yearOfJoining"/>
+                <xs:element ref="CollID"/>
+                <xs:element ref="GradType"/>
+                <xs:element ref="name"/>
+                <xs:element ref="GuardianName"/>
+                <xs:element ref="dob"/>
+                <xs:element ref="branch"/>
+                <xs:element ref="contact"/>
+                <xs:element ref="mail"/>
+                <xs:element ref="hostelRoom"/>
+                <xs:element ref="address"/>
+                <xs:element ref="cgpa"/>
+                <xs:element ref="courses"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="yearOfJoining" type="xs:integer"/>
+    <xs:element name="CollID" type="xs:NMTOKEN"/>
+    <xs:element name="GradType">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="PG"/>
+                    <xs:enumeration value="UG"/>
+                    <xs:enumeration value="Dual"/>
+                    <xs:enumeration value="Dual_UG"/>
+                </xs:restriction>
+            </xs:simpleType>
+    </xs:element>
+    <xs:element name="name">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="fName"/>
+                <xs:element ref="lName"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="fName" type="xs:NCName"/>
+    <xs:element name="lName" type="xs:NCName"/>
+    <xs:element name="GuardianName" type="xs:NCName"/>
+    <xs:element name="dob" type="xs:string"/>
+    <xs:element name="branch">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="branch1"/>
+                <xs:element ref="branch2"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="branch1" type="xs:string"/>
+    <xs:element name="branch2" type="xs:string"/>
+    <xs:element name="contact">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="personalContact"/>
+                <xs:element ref="parentContact"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="personalContact" >
+            <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="([7-9][0-9]{9})"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="parentContact" >
+            <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="([7-9][0-9]{9})"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="mail">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="officialMail"/>
+                <xs:element ref="otherMail"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="officialMail" >
+            <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="(f|h)[0-9]{7}@hyderabad.bits-pilani.ac.in"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="otherMail" >
+            <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[^@]+@[^\.]+\..+"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="hostelRoom" type="xs:NCName"/>
+    <xs:element name="address">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="line0"/>
+                <xs:element ref="line1"/>
+                <xs:element ref="line2"/>
+                <xs:element ref="line3"/>
+                <xs:element ref="line4"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="line0" type="xs:string"/>
+    <xs:element name="line1" type="xs:string"/>
+    <xs:element name="line2" type="xs:string"/>
+    <xs:element name="line3" type="xs:NCName"/>
+    <xs:element name="line4" type="xs:string"/>
+    <xs:element name="cgpa" type="xs:decimal"/>
+    <xs:element name="courses">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="course"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="course" type="xs:NCName"/>
+</xs:schema>

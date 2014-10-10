@@ -1,0 +1,192 @@
+{
+    "students": {
+        "student": [
+            {
+                "CollID": "2011A7PS086H", 
+                "name": {
+                    "lName": "Alladi", 
+                    "fName": "Santhosh"
+                }, 
+                "courses": {
+                    "course": "DS"
+                }, 
+                "GradType": "UG", 
+                "address": {
+                    "line4": "Telangana", 
+                    "line3": "Hyderabad-039", 
+                    "line2": "Uppal", 
+                    "line1": "Ragahavendra Colony", 
+                    "line0": "2-1-69/5"
+                }, 
+                "hostelRoom": "G318", 
+                "dob": "9/10/92", 
+                "contact": {
+                    "parentContact": "9949968538", 
+                    "personalContact": "9666828472"
+                }, 
+                "GuardianName": "Venkateshwarlu", 
+                "branch": {
+                    "branch2": null, 
+                    "branch1": "ComputerScience"
+                }, 
+                "mail": {
+                    "officialMail": "f2011086@hyderabad.bits-pilani.ac.in", 
+                    "otherMail": "santhoshalladi92@gmail.com"
+                }, 
+                "yearOfJoining": "2011", 
+                "cgpa": "8.07"
+            }, 
+            {
+                "CollID": "2013H1TS001H", 
+                "name": {
+                    "lName": "K", 
+                    "fName": "Bharath"
+                }, 
+                "courses": {
+                    "course": [
+                        "PC", 
+                        "ML"
+                    ]
+                }, 
+                "GradType": "PG", 
+                "address": {
+                    "line4": "Telangana", 
+                    "line3": "Hyderabad-030", 
+                    "line2": "S R Nagar", 
+                    "line1": "Dwaraka Apartments", 
+                    "line0": "101"
+                }, 
+                "hostelRoom": "S120", 
+                "dob": "11/12/90", 
+                "contact": {
+                    "parentContact": "8897236363", 
+                    "personalContact": "9666123532"
+                }, 
+                "GuardianName": "Bhaskar", 
+                "branch": {
+                    "branch2": null, 
+                    "branch1": "Information Security"
+                }, 
+                "mail": {
+                    "officialMail": "h2013001@hyderabad.bits-pilani.ac.in", 
+                    "otherMail": "barath@gmail.com"
+                }, 
+                "yearOfJoining": "2013", 
+                "cgpa": "9.53"
+            }, 
+            {
+                "CollID": "2014AA014H", 
+                "name": {
+                    "lName": "Anand", 
+                    "fName": "Akshith"
+                }, 
+                "courses": {
+                    "course": "DM"
+                }, 
+                "GradType": "UG", 
+                "address": {
+                    "line4": "Maharastra", 
+                    "line3": "Mumbai-087", 
+                    "line2": "Bhandra", 
+                    "line1": "Blue Square", 
+                    "line0": "1D"
+                }, 
+                "hostelRoom": "K154", 
+                "dob": "05/01/95", 
+                "contact": {
+                    "parentContact": "8889354789", 
+                    "personalContact": "7995516789"
+                }, 
+                "GuardianName": "Akhilesh", 
+                "branch": {
+                    "branch2": null, 
+                    "branch1": "ECE"
+                }, 
+                "mail": {
+                    "officialMail": "f2014014@hyderabad.bits-pilani.ac.in", 
+                    "otherMail": "anandh@gmail.com"
+                }, 
+                "yearOfJoining": "2014", 
+                "cgpa": "7.36"
+            }, 
+            {
+                "CollID": "2011A4A7055H", 
+                "name": {
+                    "lName": "Raj", 
+                    "fName": "Aakash"
+                }, 
+                "courses": {
+                    "course": [
+                        "DSP", 
+                        "DIP", 
+                        "ML"
+                    ]
+                }, 
+                "GradType": "Dual_UG", 
+                "address": {
+                    "line4": "Telangana", 
+                    "line3": "Hyderabad-021", 
+                    "line2": "Basheerbagh", 
+                    "line1": "Hill Apartments", 
+                    "line0": "12H/A"
+                }, 
+                "hostelRoom": "G166", 
+                "dob": "16/5/93", 
+                "contact": {
+                    "parentContact": "9848526398", 
+                    "personalContact": "7885546825"
+                }, 
+                "GuardianName": "Nagesh", 
+                "branch": {
+                    "branch2": "Computer Science", 
+                    "branch1": "Mechanical"
+                }, 
+                "mail": {
+                    "officialMail": "f2011055@hyderabad.bits-pilani.ac.in", 
+                    "otherMail": "raj@gmail.com"
+                }, 
+                "yearOfJoining": "2011", 
+                "cgpa": "8.8"
+            }, 
+            {
+                "CollID": "2010B5A7654H", 
+                "name": {
+                    "lName": "kpn", 
+                    "fName": "sai"
+                }, 
+                "courses": {
+                    "course": [
+                        "ML", 
+                        "CA"
+                    ]
+                }, 
+                "GradType": "Dual", 
+                "address": {
+                    "line4": "Andhra Pradesh", 
+                    "line3": "Ananthapur-123", 
+                    "line2": "Kotagudem", 
+                    "line1": "Lahari Colony", 
+                    "line0": "1-45/A"
+                }, 
+                "hostelRoom": "V198", 
+                "dob": "15/9/92", 
+                "contact": {
+                    "parentContact": "9888128769", 
+                    "personalContact": "9949785695"
+                }, 
+                "GuardianName": "Venkat", 
+                "branch": {
+                    "branch2": "Computer Science", 
+                    "branch1": "Physics"
+                }, 
+                "mail": {
+                    "officialMail": "f2010654@hyderabad.bits-pilani.ac.in", 
+                    "otherMail": "sai@gmail.com"
+                }, 
+                "yearOfJoining": "2010", 
+                "cgpa": "7.9"
+            }
+        ]
+    }
+
+}
